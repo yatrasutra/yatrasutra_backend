@@ -1,6 +1,8 @@
 export const internationalPackageFields = {
 destination: "string",
 image: "string",
+image2:"string",
+image3:"string",
 price: "number",
 period: "string",
 subtext: "string",
