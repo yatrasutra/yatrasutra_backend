@@ -5,6 +5,7 @@ import morgan from "morgan";
 
 import internationalRoutes from "./routes/internationalRoutes.js";
 import domesticRoutes from "./routes/domesticRoutes.js";
+import blogRoutes from "./routes/blogRoutes.js"; 
 
 dotenv.config();
 
@@ -18,6 +19,7 @@ app.use(express.json());
 // Routes
 app.use("/api/international", internationalRoutes);
 app.use("/api/domestic", domesticRoutes);
+app.use("/api/blog", blogRoutes);
 
 // Test route
 app.get("/", (req, res) => res.send("Yatrasutra backend running 🚀"));
