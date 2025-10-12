@@ -11,4 +11,5 @@ inclusions: "array",
 exclusions: "array",
 category: "string",
 rating: "number",
+itineraries: "string",
 };

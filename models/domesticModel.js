@@ -1,14 +1,16 @@
-export const internationalPackageFields = {
-destination: "string",
-image: "string",
-image2:"string",
-image3:"string",
-price: "number",
-period: "string",
-subtext: "string",
-description: "string",
-inclusions: "array",
-exclusions: "array",
-category: "string",
-rating: "number",
-};
+export const domesticPackageFields = {
+    destination: "string",
+    image: "string",
+    image2: "string",
+    image3: "string",
+    price: "number",
+    period: "string",
+    subtext: "string",
+    description: "string",
+    inclusions: "array",
+    exclusions: "array",
+    category: "string",
+    rating: "number",
+    itineraries: "string", 
+  };
+  
