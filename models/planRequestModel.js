@@ -1,7 +1,7 @@
 export const planRequestFields = {
     name: "string",         
     destination: "string",  
-    price: "number",       
+    price: "string",       
     phone: "string",       
   };
   
